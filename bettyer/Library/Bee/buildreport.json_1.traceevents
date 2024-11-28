@@ -1,0 +1,499 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1691579725810446, "dur": 1564824, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579725810670, "dur": 4358, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579725815032, "dur": 32182, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579725847215, "dur": 516036, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579726363253, "dur": 997545, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579727360802, "dur": 14468, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579727375818, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1691579726215210, "dur": 135867, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726216152, "dur": 41302, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726334006, "dur": 4049, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726338058, "dur": 13012, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726338815, "dur": 11572, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726355210, "dur": 1106, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1691579726354548, "dur": 1787, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579727375943, "dur": 162, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691579726403204, "dur":1034, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579726404243, "dur":160, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1691579726404412, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1691579726404426, "dur":459, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1691579726404944, "dur":478, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579726405422, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337653, "dur":223, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337876, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337890, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337892, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337900, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337902, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337907, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337909, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337914, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337916, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337922, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337923, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337928, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337930, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337935, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337936, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337941, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337942, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337948, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337949, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337954, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337955, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337961, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337963, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337968, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727337980, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727338001, "dur":7668, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691579726405244, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726405429, "dur":3675, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726409115, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1691579726409118, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726409441, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1691579726409445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726421989, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1691579726422882, "dur":45571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691579726468457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726468461, "dur":35983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691579726504489, "dur":26983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726531476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726531484, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726532771, "dur":134457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726667233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726667243, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726671167, "dur":59627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726730799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726730808, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726734366, "dur":115232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726849602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579726849608, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579726851952, "dur":192013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579727043970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691579727043979, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691579727045194, "dur":292439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726405715, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726405716, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726409116, "dur":12606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1691579726421725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726421739, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1691579726423606, "dur":65455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726489066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726489075, "dur":23347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726512464, "dur":24765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726537233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726537242, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726538902, "dur":21015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726559921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726559931, "dur":13811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726573783, "dur":23247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726597038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726597063, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726598299, "dur":24954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726623259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726623268, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726624503, "dur":48082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726672589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726672597, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726674491, "dur":20201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726694695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726694705, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726698434, "dur":38022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726736462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726736474, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726737605, "dur":74237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726811863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726811871, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726813679, "dur":81900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726895583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579726895592, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579726897007, "dur":122850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579727019866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691579727019879, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691579727022790, "dur":314855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726405334, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726405461, "dur":3648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726409115, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1691579726409442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726421459, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1691579726423317, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1691579726423405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726423758, "dur":10532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1691579726434348, "dur":45697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726480048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726480054, "dur":32098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726512211, "dur":25217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726537431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726537437, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726541012, "dur":45374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726586393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726586403, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726591211, "dur":23167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726614381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726614389, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726615410, "dur":20319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726635732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726635738, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726638664, "dur":23070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726661738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726661745, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726662665, "dur":28645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726691314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726691323, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726694292, "dur":46731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726741085, "dur":62, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726741157, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726743723, "dur":217904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726961631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579726961640, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579726963097, "dur":275226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579727238327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691579727238334, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691579727239205, "dur":98450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726405447, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726405448, "dur":3702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726409150, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1691579726409330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726411044, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1691579726413594, "dur":11408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691579726425006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726425016, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691579726426528, "dur":26205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726452737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726452818, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726453776, "dur":98288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726552069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726552119, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726553352, "dur":55453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726608809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726608819, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726609801, "dur":24277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726634083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726634092, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726635174, "dur":34118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726669348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726669356, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726671503, "dur":24977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726696485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726696494, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726698446, "dur":18458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726716907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726716915, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726718050, "dur":31749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726749803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579726749810, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579726751199, "dur":261557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579727012760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691579727012768, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691579727015810, "dur":321831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726405564, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726405564, "dur":3583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726409148, "dur":12142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1691579726421293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726421315, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1691579726422808, "dur":10875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1691579726433687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726433693, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1691579726435849, "dur":40012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726475866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726475877, "dur":36536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726512453, "dur":63998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726576456, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726576467, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726577828, "dur":64254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726642086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726642093, "dur":7728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726649865, "dur":100530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726750398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726750404, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726752111, "dur":62640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726814755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726814763, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726817004, "dur":84009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726901018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579726901026, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579726925769, "dur":140217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579727065991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691579727066008, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691579727067531, "dur":270099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726405795, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726405795, "dur":3313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726409115, "dur":11761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1691579726420878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726420941, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1691579726421904, "dur":81481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726503389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726503469, "dur":4887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726508407, "dur":22259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726530671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726530683, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726532602, "dur":75522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726608129, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726608141, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726614292, "dur":20251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726634546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726634553, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726637770, "dur":30865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726668639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726668647, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726671766, "dur":32143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726703912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726703919, "dur":14286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726718245, "dur":50451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726768700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726768709, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726769739, "dur":121172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726890914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579726890920, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579726894854, "dur":137814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579727032673, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691579727032683, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691579727034370, "dur":303276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726405867, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726405867, "dur":3240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726409116, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691579726409567, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726434431, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691579726437122, "dur":34133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726471260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726471270, "dur":42585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726513949, "dur":64392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726578345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726578353, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726579777, "dur":38153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726617935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726617944, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726619455, "dur":48830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726668291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726668303, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726669405, "dur":19551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726688960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726688969, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726690315, "dur":25845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726716165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726716173, "dur":8966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726725186, "dur":131122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726856313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579726856322, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579726859297, "dur":227830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579727087133, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691579727087145, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691579727089735, "dur":247951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726405931, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726405931, "dur":3218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726409149, "dur":11557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691579726420709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726420833, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691579726422026, "dur":158320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726580350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726580357, "dur":22192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726602594, "dur":34529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726637128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726637136, "dur":3798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726640978, "dur":20237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726661221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726661230, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726662226, "dur":22765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726684996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726685082, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726686773, "dur":26183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726712961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726712969, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726713951, "dur":93207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726807163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579726807172, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579726808279, "dur":232632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579727040917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691579727040927, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691579727042306, "dur":295325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726405988, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726405989, "dur":3116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726409115, "dur":45720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1691579726454839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726455153, "dur":49010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1691579726504241, "dur":29100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726533345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726533354, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726536044, "dur":211811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726747860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726747868, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726749724, "dur":99408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726849136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726849145, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726851408, "dur":107324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726958736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579726958743, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579726959710, "dur":374653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579727334368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691579727334376, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691579727337607, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1691579727337610, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726406041, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726406042, "dur":3064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726409115, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1691579726409345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726411416, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1691579726413605, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1691579726413806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726414065, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1691579726415064, "dur":10145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691579726425212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726425218, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691579726426711, "dur":41050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726467766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726467776, "dur":44269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726512093, "dur":25785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726537881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726537887, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726540936, "dur":40633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726581574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726581582, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726582680, "dur":35830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726618514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726618521, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726619560, "dur":51759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726671326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726671337, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726674405, "dur":28903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726703314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726703326, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726705288, "dur":140205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726845496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726845504, "dur":5241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726850792, "dur":39995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726890793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579726890802, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579726892312, "dur":198472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579727090848, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691579727090863, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691579727093421, "dur":244268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726406097, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726406097, "dur":3012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726409116, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691579726409329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726411266, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691579726413584, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691579726413731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726414287, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691579726415214, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1691579726415317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726415380, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1691579726417042, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1691579726417162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726417190, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1691579726418586, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1691579726418700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726418706, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1691579726420488, "dur":3141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726423631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726423850, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726425168, "dur":26481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726451654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726452146, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726453155, "dur":24777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726477956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726477963, "dur":34624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726512627, "dur":79605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726592236, "dur":96, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726592340, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726593516, "dur":25287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726618806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726618881, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726621166, "dur":19528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726640699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726640767, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726642142, "dur":33784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726675931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726675940, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726677583, "dur":132343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726809930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726809938, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726811467, "dur":146001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726957474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726957483, "dur":16411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726973936, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726974790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726974798, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691579726975682, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691579726975723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726975763, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691579726976997, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726977043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726977048, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726985703, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726985747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726985755, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726987058, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1691579726987190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726987197, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1691579726988060, "dur":1868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1691579726989932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726989940, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1691579726990943, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726990984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726990990, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992030, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992075, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992864, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726992923, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691579726993838, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1691579726993877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726993881, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1691579726994691, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726994733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726994738, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1691579726995690, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1691579726995732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726995738, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1691579726996635, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1691579726996769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691579726996774, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1691579726997640, "dur":340010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726406152, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726406152, "dur":2996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726409148, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1691579726409472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726433604, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1691579726436764, "dur":23437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726460207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726460216, "dur":52820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726513077, "dur":24353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726537434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726537440, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726541551, "dur":113144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726654701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726654710, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726656138, "dur":22283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726678424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726678433, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726679455, "dur":20538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726699999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726700009, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726701262, "dur":40073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726741338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726741344, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726742958, "dur":100999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726843961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726843970, "dur":7549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726851558, "dur":35485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726887048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726887083, "dur":6443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726893572, "dur":48435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726942012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579726942021, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579726944188, "dur":66062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579727010255, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691579727010265, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isa/Desktop/arabaaaa/bettyer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691579727011337, "dur":326316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691579727347367, "dur":1845, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1691579727376152, "dur": 520, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1691579727375806, "dur": 884, "ph": "X", "name": "Write chrome-trace events", "args": {} },
